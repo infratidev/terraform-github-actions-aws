@@ -33,7 +33,7 @@ resource "aws_instance" "web" {
   tags = {
     Name        = var.name
     Environment = var.env
-    Provisioner = "Terraform InfraTI"
+    Provisioner = "Terraform infrati.dev"
   }
 
 }
